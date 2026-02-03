@@ -1,0 +1,6 @@
+from enum import Enum
+
+class ArrivalType(str, Enum):
+    OTHER_UNIT = "з інших військових частин"
+    THROUGH_OTHER_UNIT = "з інших військових частин (сквозне надходження)"
+    RESERVE_COMPANY = "зарахування у запасну роту"
